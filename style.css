@@ -1,3 +1,15 @@
+.honda-bg {
+  background-color: #264653;
+}
+.mobile-button {
+  background-color: white !important;
+}
+h1 {
+  font-size: 48px;
+}
+.text-color {
+  color: #e76f51;
+}
 .buttons {
   background-color: #e76f51;
 }
@@ -10,4 +22,8 @@
 }
 .feq-image {
   height: 400px;
+}
+.accessory-image {
+  width: 100px;
+  height: 100px;
 }

@@ -18,12 +18,12 @@
   <body>
     <!-- Header start -->
     <header>
-      <section class="bg-secondary bg-gradient">
+      <section class="honda-bg">
         <!-- navbar -->
         <nav class="container navbar navbar-expand-lg navbar-light">
           <div class="container-fluid d-flex justify-content-end">
             <button
-              class="navbar-toggler"
+              class="navbar-toggler mobile-button"
               type="button"
               data-bs-toggle="collapse"
               data-bs-target="#navbarNavAltMarkup"
@@ -44,9 +44,14 @@
                   href="#"
                   >Home</a
                 >
-                <a class="nav-link text-white me-3" href="#">Features</a>
-                <a class="nav-link text-white me-3" href="#">Pricing</a>
-                <button class="btn buttons ms-5">Login</button>
+                <a class="nav-link active text-white me-3" href="#shop">Shop</a>
+                <a class="nav-link active text-white me-3" href="#news">News</a>
+                <a class="nav-link active text-white me-3" href="#contact"
+                  >Contct</a
+                >
+               <div class="">
+                <button class="btn buttons ms-0 ms-md-5 text-white">Login</button>
+               </div>
               </div>
             </div>
           </div>
@@ -68,7 +73,7 @@
               <div>
                 <button
                   type="button"
-                  class="btn px-4 py-1 buttons"
+                  class="btn px-4 py-1 buttons text-white"
                   data-bs-toggle="modal"
                   data-bs-target="#staticBackdrop"
                 >
@@ -83,12 +88,12 @@
                   tabindex="-1"
                   aria-labelledby="staticBackdropLabel"
                   aria-hidden="true"
-                >
+                 >
                   <div class="modal-dialog">
                     <div class="modal-content">
                       <div class="modal-header">
                         <h5 class="modal-title" id="staticBackdropLabel">
-                          Modal title
+                          Purchase Details
                         </h5>
                         <button
                           type="button"
@@ -97,7 +102,15 @@
                           aria-label="Close"
                         ></button>
                       </div>
-                      <div class="modal-body">...</div>
+                      <div class="modal-body text-secondary">
+                        We use cookies to personalise content and ads, to
+                        provide social media features and to analyse our
+                        traffic. We also share information about your use of our
+                        site with our social media, advertising and analytics
+                        partners who may combine it with other information that
+                        you’ve provided to them or that they’ve collected from
+                        your use of their services.
+                      </div>
                       <div class="modal-footer">
                         <button
                           type="button"
@@ -115,8 +128,8 @@
                 </div>
               </div>
             </div>
-            <div class="col-lg-7 col-md-6 col-sm-12">
-              <img class="w-100 px-5" src="images/header-bike.png" alt="" />
+            <div class="col-lg-7 col-md-6 col-sm-12 mt-3 mt-md-0">
+              <img class="w-100" src="images/header-bike.png" alt="" />
             </div>
           </div>
         </div>
@@ -125,9 +138,9 @@
     <!-- Main body -->
     <main>
       <div>
-        <section class="container">
+        <section class="container" id="shop">
           <div class="d-grid justify-content-center mt-5">
-            <h1>Fetured Bikes 2021</h1>
+            <h1 class="fw-bold text-center">Fetured Bikes 2021</h1>
             <p class="text-warning text-center">Best bike collection</p>
           </div>
           <div class="row d-flex justify-content-around g-5 mt-5">
@@ -145,21 +158,29 @@
       </div>
 
       <!-- latest News -->
-      <section class="container mt-5" id="shose">
-        <h2 class="text-center">latest News</h2>
+      <section class="container mt-5" id="news">
+        <h1 class="text-center fw-bold">latest News</h1>
         <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4 my-4">
           <div class="col">
             <div class="card border shadow-sm h-100">
               <img src="images/bike-3.png" class="card-img-top p-3" alt="..." />
               <div class="card-body">
                 <h5 class="card-title">Ducati XDIAVEL S-73</h5>
-                <p class="card-text">
-                  This is a longer card with supporting text below as a natural
-                  lead-in to additional.
+                <p class="card-text text-secondary">
+                  Is it any wonder why the Honda CBR500R is one of our most
+                  popular sportbikes? It just gets so many things right. Price.
+                  Power. Weight. Handling. Its twin-cylinder engine revs freely
+                  and produces plenty of torque, and it lets us keep the bike
+                  narrow and nimble too. The full-coverage bodywork looks like
+                  something right off the racetrack. Best of all, it’s a bike
+                  you can start out on and never have to trade up. Plus, for
+                  2021, every CBR500R comes with anti-lock brakes (ABS) as
+                  standard equipment. And there’s a tasty new Pearl White color
+                  scheme this year too.
                 </p>
               </div>
               <div class="m-3">
-                <button class="btn buttons">Read More</button>
+                <button class="btn text-white buttons">Read More</button>
               </div>
             </div>
           </div>
@@ -168,13 +189,21 @@
               <img src="images/bike-2.png" class="card-img-top p-3" alt="..." />
               <div class="card-body">
                 <h5 class="card-title">Motorcycles & Scooters</h5>
-                <p class="card-text">
-                  This card has supporting text below as a natural lead-in to
-                  additional content.
+                <p class="card-text text-secondary">
+                  Is it any wonder why the Honda CBR500R is one of our most
+                  popular sportbikes? It just gets so many things right. Price.
+                  Power. Weight. Handling. Its twin-cylinder engine revs freely
+                  and produces plenty of torque, and it lets us keep the bike
+                  narrow and nimble too. The full-coverage bodywork looks like
+                  something right off the racetrack. Best of all, it’s a bike
+                  you can start out on and never have to trade up. Plus, for
+                  2021, every CBR500R comes with anti-lock brakes (ABS) as
+                  standard equipment. And there’s a tasty new Pearl White color
+                  scheme this year too.
                 </p>
               </div>
               <div class="m-3">
-                <button class="btn buttons">Read More</button>
+                <button class="btn text-white buttons">Read More</button>
               </div>
             </div>
           </div>
@@ -183,14 +212,21 @@
               <img src="images/bike-1.png" class="card-img-top p-3" alt="..." />
               <div class="card-body">
                 <h5 class="card-title">2021 Honda CBR500R</h5>
-                <p class="card-text">
-                  This is a wider card with supporting text below as a natural
-                  lead-in to additional content. This card has even longer
-                  content than the first to show that equal height action.
+                <p class="card-text text-secondary">
+                  Is it any wonder why the Honda CBR500R is one of our most
+                  popular sportbikes? It just gets so many things right. Price.
+                  Power. Weight. Handling. Its twin-cylinder engine revs freely
+                  and produces plenty of torque, and it lets us keep the bike
+                  narrow and nimble too. The full-coverage bodywork looks like
+                  something right off the racetrack. Best of all, it’s a bike
+                  you can start out on and never have to trade up. Plus, for
+                  2021, every CBR500R comes with anti-lock brakes (ABS) as
+                  standard equipment. And there’s a tasty new Pearl White color
+                  scheme this year too.
                 </p>
               </div>
               <div class="m-3">
-                <button class="btn buttons">Read More</button>
+                <button class="btn text-white buttons">Read More</button>
               </div>
             </div>
           </div>
@@ -198,9 +234,9 @@
       </section>
       <!-- Happy clients -->
       <section class="container mt-5" id="shose">
-        <h2 class="text-center fs-1 fw-bold">
-          Happy <span class="text-danger">Clients says</span>
-        </h2>
+        <h1 class="text-center fw-bold">
+          Happy <span class="text-color">Clients says</span>
+        </h1>
         <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3">
           <!-- first client -->
           <div class="col p-3 p-md-5">
@@ -213,9 +249,9 @@
                 />
               </div>
               <div class="card-body">
-                <p class="card-text text-center">
-                  This is a longer card with supporting text below as a natural
-                  lead-in to additional.
+                <p class="card-text text-center text-secondary">
+                  Slate helps you see how many more days you need to work to
+                  reach your financial goal for the month and year.
                 </p>
                 <div class="text-center">
                   <div>
@@ -295,9 +331,9 @@
                 />
               </div>
               <div class="card-body">
-                <p class="card-text">
-                  This is a longer card with supporting text below as a natural
-                  lead-in to additional.
+                <p class="card-text text-center text-secondary">
+                  Slate helps you see how many more days you need to work to
+                  reach your financial goal for the month and year.
                 </p>
                 <div class="text-center">
                   <div>
@@ -377,9 +413,9 @@
                 />
               </div>
               <div class="card-body">
-                <p class="card-text">
-                  This is a longer card with supporting text below as a natural
-                  lead-in to additional.
+                <p class="card-text text-center text-secondary">
+                  Slate helps you see how many more days you need to work to
+                  reach your financial goal for the month and year.
                 </p>
                 <div class="text-center">
                   <div>
@@ -451,9 +487,9 @@
         </div>
       </section>
       <!-- Ask questions -->
-      <section class="container mt-5">
-        <h1 class="text-center">
-          Frequently Asked <span class="text-danger">Questions</span>
+      <section class="container my-5" id="contact">
+        <h1 class="text-center fw-bold">
+          Frequently Asked <span class="text-color">Questions</span>
         </h1>
         <div class="row d-flex align-items-start g-5 mt-5">
           <div class="col-lg-6 col-sm-12 text-center">
@@ -481,15 +517,7 @@
                 data-bs-parent="#accordionExample"
               >
                 <div class="accordion-body">
-                  <strong>This is the first item's accordion body.</strong> It
-                  is shown by default, until the collapse plugin adds the
-                  appropriate classes that we use to style each element. These
-                  classes control the overall appearance, as well as the showing
-                  and hiding via CSS transitions. You can modify any of this
-                  with custom CSS or overriding our default variables. It's also
-                  worth noting that just about any HTML can go within the
-                  <code>.accordion-body</code>, though the transition does limit
-                  overflow.
+                  <p class="text-secondary">Possibly the simplest aspect of bike maintenance is having your tyres pumped to the right pressure. What is the right pressure? That’s simple, too - it’s written on the sidewall of your tyres, just take a look. You’ll notice the tyre manufacture has a recommended range rather than one absolute pressure. That’s so you can adjust the tyre pressures according to the conditions. If you’re going somewhere that might be damp and slippy, don’t pump your tyres up too hard. If it’s dry and you want to ride as efficiently as possible fill them up.</p>
                 </div>
               </div>
             </div>
@@ -513,15 +541,7 @@
                 data-bs-parent="#accordionExample"
               >
                 <div class="accordion-body">
-                  <strong>This is the second item's accordion body.</strong> It
-                  is hidden by default, until the collapse plugin adds the
-                  appropriate classes that we use to style each element. These
-                  classes control the overall appearance, as well as the showing
-                  and hiding via CSS transitions. You can modify any of this
-                  with custom CSS or overriding our default variables. It's also
-                  worth noting that just about any HTML can go within the
-                  <code>.accordion-body</code>, though the transition does limit
-                  overflow.
+                  <p class="text-secondary">Possibly the simplest aspect of bike maintenance is having your tyres pumped to the right pressure. What is the right pressure? That’s simple, too - it’s written on the sidewall of your tyres, just take a look. You’ll notice the tyre manufacture has a recommended range rather than one absolute pressure. That’s so you can adjust the tyre pressures according to the conditions. If you’re going somewhere that might be damp and slippy, don’t pump your tyres up too hard. If it’s dry and you want to ride as efficiently as possible fill them up.</p>
                 </div>
               </div>
             </div>
@@ -545,15 +565,7 @@
                 data-bs-parent="#accordionExample"
               >
                 <div class="accordion-body">
-                  <strong>This is the third item's accordion body.</strong> It
-                  is hidden by default, until the collapse plugin adds the
-                  appropriate classes that we use to style each element. These
-                  classes control the overall appearance, as well as the showing
-                  and hiding via CSS transitions. You can modify any of this
-                  with custom CSS or overriding our default variables. It's also
-                  worth noting that just about any HTML can go within the
-                  <code>.accordion-body</code>, though the transition does limit
-                  overflow.
+                  <p class="text-secondary">Possibly the simplest aspect of bike maintenance is having your tyres pumped to the right pressure. What is the right pressure? That’s simple, too - it’s written on the sidewall of your tyres, just take a look. You’ll notice the tyre manufacture has a recommended range rather than one absolute pressure. That’s so you can adjust the tyre pressures according to the conditions. If you’re going somewhere that might be damp and slippy, don’t pump your tyres up too hard. If it’s dry and you want to ride as efficiently as possible fill them up.</p>
                 </div>
               </div>
             </div>
@@ -577,16 +589,140 @@
                 data-bs-parent="#accordionExample"
               >
                 <div class="accordion-body">
-                  <strong>This is the third item's accordion body.</strong> It
-                  is hidden by default, until the collapse plugin adds the
-                  appropriate classes that we use to style each element. These
-                  classes control the overall appearance, as well as the showing
-                  and hiding via CSS transitions. You can modify any of this
-                  with custom CSS or overriding our default variables. It's also
-                  worth noting that just about any HTML can go within the
-                  <code>.accordion-body</code>, though the transition does limit
-                  overflow.
+                  <p class="text-secondary">Possibly the simplest aspect of bike maintenance is having your tyres pumped to the right pressure. What is the right pressure? That’s simple, too - it’s written on the sidewall of your tyres, just take a look. You’ll notice the tyre manufacture has a recommended range rather than one absolute pressure. That’s so you can adjust the tyre pressures according to the conditions. If you’re going somewhere that might be damp and slippy, don’t pump your tyres up too hard. If it’s dry and you want to ride as efficiently as possible fill them up.</p>
                 </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Extra part -->
+      <!-- Accessories -->
+      <section class="container mt-5">
+        <h1><span class="text-color">Bike</span> Accessories</h1>
+        <div class="container border shadow rounded my-5 p-5">
+          <div class="accordion accordion-flush" id="accordionFlushExample">
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="flush-headingOne">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                  <img class="me-5 accessory-image" src="images/accessories/accessoey-1.jpg" alt="">
+                 <p class="fw-bold">Honda Helmet</p>
+                </button>
+              </h2>
+              <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">
+                  <!-- Button trigger modal -->
+                  <div class="text-end">
+                    <button type="button" class="btn text-danger fw-bold" data-bs-toggle="modal" data-bs-target="#exampleModal1">
+                      BUY ONLINE
+                    </button>
+                  </div>
+                  
+                  <!-- Modal -->
+                  <div class="modal fade" id="exampleModal1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h3 class="modal-title text-danger fw-bold" id="exampleModalLabel">HONDA</h3>
+                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body modal-dialog">
+                         <p class="fw-bold mb-3 text-center">
+                          You are now leaving the Honda Powersports web site and entering an independent site.
+                         </p>
+                          <p>
+                            American Honda Motor Co. Inc. is not responsible for the content presented by any independent website, including advertising claims, special offers, illustrations, names or endorsements. Thank you for visiting www.powersports.honda.com.</p>
+                        </div>
+                        <div class="modal-footer">
+                          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                          <button type="button" class="btn btn-primary">Buy Now</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="flush-headingTwo">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                  <img class="me-5 accessory-image" src="images/accessories/accessory-2.jpg" alt="">
+                  <p class="fw-bold">Honda DIO AF27/AF28</p>
+                </button>
+              </h2>
+              <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">
+                  <!-- Button trigger modal -->
+                  <div class="text-end">
+                    <button type="button" class="btn text-danger fw-bold" data-bs-toggle="modal" data-bs-target="#exampleModal2">
+                      BUY ONLINE
+                    </button>
+                  </div>
+                  
+                  <!-- Modal -->
+                  <div class="modal fade" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h3 class="modal-title text-danger fw-bold" id="exampleModalLabel">HONDA</h3>
+                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body modal-dialog">
+                          <p class="fw-bold mb-3 text-center">
+                            You are now leaving the Honda Powersports web site and entering an independent site.
+                           </p>
+                            <p>
+                              American Honda Motor Co. Inc. is not responsible for the content presented by any independent website, including advertising claims, special offers, illustrations, names or endorsements. Thank you for visiting www.powersports.honda.com.</p>
+                        </div>
+                        <div class="modal-footer">
+                          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                          <button type="button" class="btn btn-primary">Buy Now</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div></div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="flush-headingThree">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                  <img class="me-5 accessory-image" src="images/accessories/accessory-3.jpg" alt="">
+                  <p class="fw-bold">Cover</p>
+                </button>
+              </h2>
+              <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">
+                  <!-- Button trigger modal -->
+                 <div class="text-end">
+                  <button type="button" class="btn text-danger fw-bold" 
+                  data-bs-toggle="modal" data-bs-target="#exampleModal3">
+                    BUY ONLINE
+                  </button>
+                 </div>
+                  
+                  <!-- Modal -->
+                  <div class="modal fade" id="exampleModal3" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h3 class="modal-title text-danger fw-bold" id="exampleModalLabel">HONDA</h3>
+                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body modal-dialog">
+                          <p class="fw-bold mb-3 text-center">
+                            You are now leaving the Honda Powersports web site and entering an independent site.
+                           </p>
+                            <p>
+                              American Honda Motor Co. Inc. is not responsible for the content presented by any independent website, including advertising claims, special offers, illustrations, names or endorsements. Thank you for visiting www.powersports.honda.com.</p>
+                        </div>
+                        <div class="modal-footer">
+                          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                          <button type="button" class="btn btn-primary">Buy Now</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div></div>
               </div>
             </div>
           </div>
@@ -595,22 +731,21 @@
     </main>
     <!-- Footer -->
     <footer>
-      <section class="bg-dark text-white">
-        <div class="container row">
-          <div class="col-md-6">
+      <section class="bg-dark text-white mt-5">
+        <div class="container row justify-content-center">
+          <div class="col-md-6 my-5">
             <div class="d-flex">
-              <p><a href="">Download</a></p>
-              <p class="ms-3"><a href="">License</a></p>
+              <p><a class="text-white" href="">Download</a></p>
+              <p class="ms-3"><a class="text-white" href="">Licence</a></p>
             </div>
             <div class="d-flex">
-              <p><a href="">Download</a></p>
-              <p class="ms-3"><a href="">License</a></p>
-              <p class="ms-3"><a href="">License</a></p>
-              <p class="ms-3"><a href="">License</a></p>
+              <p><a class="text-white" href="">About</a></p>
+              <p class="ms-3"><a class="text-white nav-link" href="">Features</a></p>
+              <p class="ms-3"><a class="text-white" href="">Pricing</a></p>
+              <p class="ms-3"><a class="text-white" href="">Help</a></a></p>
             </div>
             <small>&copy;2021 bike. All rights reserved</small>
           </div>
-          <div class="col-md-6"></div>
         </div>
       </section>
     </footer>
