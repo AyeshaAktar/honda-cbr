@@ -1,0 +1,13 @@
+.buttons {
+  background-color: #e76f51;
+}
+.bike {
+  filter: grayscale(1);
+}
+.image-size {
+  width: 200px;
+  height: 200px;
+}
+.feq-image {
+  height: 400px;
+}
